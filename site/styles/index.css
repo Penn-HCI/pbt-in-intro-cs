@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overscroll-behavior: none;
+  overflow-x: hidden;
+}
+
+/* Relative url() so the bundler copies the file and applies basePath */
+.bg-herringbone {
+  background-image: url("../public/assets/herringbone.svg");
+}
+
+/* Syntax highlighting for code blocks (classes added by rehype-highlight) */
+.hljs-keyword,
+.hljs-built_in {
+  color: #22407a;
+  font-weight: 600;
+}
+.hljs-type {
+  color: #2b6150;
+}
+.hljs-string {
+  color: #8a4b1c;
+}
+.hljs-number,
+.hljs-literal {
+  color: #9a2f2f;
+}
+.hljs-comment {
+  color: #6b7280;
+  font-style: italic;
+}
+.hljs-title,
+.hljs-function {
+  color: #22341f;
+}
