@@ -33,7 +33,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          # e.g. "/property-based-testing-materials"
+          # e.g. "/pbt-in-intro-cs"
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,6 +1,6 @@
 # PBT materials site
 
-The interactive walkthrough at https://penn-hci.github.io/property-based-testing-materials/,
+The interactive walkthrough at https://penn-hci.github.io/pbt-in-intro-cs/,
 built with Next.js and deployed to GitHub Pages by `.github/workflows/deploy.yml`
 on every push to `main`.
 
@@ -26,7 +26,7 @@ npm run dev     # http://localhost:3000
 npm run build   # static site in out/
 ```
 
-In CI, `BASE_PATH` is set to `/property-based-testing-materials` so assets resolve
+In CI, `BASE_PATH` is set to `/pbt-in-intro-cs` so assets resolve
 under the project-pages URL. Locally it is unset and the site is served at `/`.
 
 ## Credit
